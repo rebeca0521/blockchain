@@ -166,18 +166,18 @@
 				"rev":document.getElementById("rev").value,
 				"method":"2",
 				"description": document.getElementById("description").value,
-				"txn":"LZUMWWRPTZSDOUDEWUGDHYLNODVPXBBPNBQFESKRZZSKAZHBVLYNQNPSALGPRWJHFMJNQDTXOALVZ9999", // tx of sneder balances
+				"txn":"HFIHTTCPPJNMHJEKNYSTUJNGEDHVQZYSP9BIMZPDRTVKZCQFQC9YAZRXUB9CEVGIFKXL9XUMGRFJ99999", // tx of sneder balances
 			}
 
 
 			$.ajax({
-				url:"http://3.87.127.58:8888/send_token",
+				url:"http://3.87.137.58:8888/send_token",
 				type:'POST',
 				headers:{
-					"contentType":"applition/json;",
-					"X-API-key":api,
+					"contentType":"application/json;",
+					"X-API-key":"r1783256",
 				},
-				contentType:"applition/json;",
+				contentType:"application/json;",
 				data: JSON.stringify(data),
 				success:function(result){
 					console.log("result",result);
