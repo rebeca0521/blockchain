@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>SCU IOTA Bank</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
+	<meta name="descriptio n" content="Free HTML5 Website Template by freehtml5.co" />
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
 	<meta name="author" content="freehtml5.co" />
 
@@ -100,9 +100,9 @@
                 <br style="clear:both">
                 <h3 style="margin-bottom: 25px; text-align: center;">Payment</h3>
                 <div class="form-group">
-					Sender: <input type="text" class="form-control" id="sen" name="sen" value="">
+					Sender: <input type="text" class="form-control" id="sen" name="sen" value="BoJia">
 				   
-				    Receiver: <input type="text" class="form-control" id="rev" name="rev" value="">
+				    Receiver: <input type="text" class="form-control" id="rev" name="rev" value="lai">
 
 				    description: <input type="text" class="form-control" id="description" name="description" value="">
 
@@ -160,13 +160,13 @@
 <!--javascript呈現json的部分-->
 	<script>
 		function sendToken(){
-			const api ="SENDER_API" //x-api-key
+			const api ="r1783256" //x-api-key
 			const data ={
 				"sen":document.getElementById("sen").value, //sender user name
 				"rev":document.getElementById("rev").value,
 				"method":"2",
 				"description": document.getElementById("description").value,
-				"txn":"X99KHARMXNVFRDSKBIBFVBYSXRDMZRLYUHWNET9PJHXPIJUWEKWVQWGPHABKYRTKYVJXJWULDEKE99999", // tx of sneder balances
+				"txn":"LZUMWWRPTZSDOUDEWUGDHYLNODVPXBBPNBQFESKRZZSKAZHBVLYNQNPSALGPRWJHFMJNQDTXOALVZ9999", // tx of sneder balances
 			}
 
 
